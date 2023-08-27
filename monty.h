@@ -65,6 +65,7 @@ int execute(char *content, stack_t **stack, int counter, FILE *file);
 
 void f_push(stack_t **head, unsigned int counter);
 void f_pall(stack_t **head, unsigned int counter);
+void f_pint(stack_t **head, unsigned int counter);
 /*-----------------------------*/
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
